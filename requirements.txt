@@ -1,0 +1,8 @@
+rich>=13.0
+click>=8.0
+pandas>=2.0
+jinja2>=3.0
+langchain>=0.2
+langchain-community>=0.2
+chromadb>=0.4
+sentence-transformers>=2.2

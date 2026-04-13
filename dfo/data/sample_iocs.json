@@ -1,0 +1,28 @@
+{
+    "ip": [
+        "198.51.100.23",
+        "203.0.113.45",
+        "192.0.2.100",
+        "10.255.255.1"
+    ],
+    "domain": [
+        "evil-c2-server.example.com",
+        "malware-drop.example.net",
+        "data-exfil.example.org",
+        "xn--phishing-domain.example.com",
+        "update-service-check.example.com"
+    ],
+    "hash": [
+        "e99a18c428cb38d5f260853678922e03",
+        "a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2c3d4e5f6a1b2",
+        "d41d8cd98f00b204e9800998ecf8427e"
+    ],
+    "mutex": [
+        "Global\\MUTEX_MALWARE_XYZ",
+        "Local\\ShellTray_Mutex"
+    ],
+    "useragent": [
+        "Mozilla/5.0 (compatible; MSIE 6.0; Loader)",
+        "Python-urllib/2.7"
+    ]
+}
