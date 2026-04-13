@@ -1,0 +1,188 @@
+[
+  {
+    "id": "d5b3f408-f5b0-4cd7-b97e-3d9d0e019deb",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:12.343356+00:00",
+    "title": "Network [packet_summary]",
+    "description": "Packet #1: 176.126.243.198:36635 \u2192 185.47.63.113:19 | eth:ethertype:ip:udp:chargen | 60 bytes | Chargen",
+    "raw_data": {
+      "profile": "packet_summary",
+      "src_ip": "176.126.243.198",
+      "dst_ip": "185.47.63.113",
+      "frame_number": "1",
+      "time_rel": "0.000000000",
+      "ip_src": "176.126.243.198",
+      "ip_dst": "185.47.63.113",
+      "ipv6_src": "",
+      "ipv6_dst": "",
+      "tcp_srcport": "",
+      "tcp_dstport": "",
+      "udp_srcport": "36635",
+      "udp_dstport": "19",
+      "protocols": "eth:ethertype:ip:udp:chargen",
+      "frame_len": "60",
+      "info": "Chargen"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  },
+  {
+    "id": "9ea312e9-196e-48a8-b29d-9e559d7a606e",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:12.343425+00:00",
+    "title": "Network [packet_summary]",
+    "description": "Packet #2: 185.47.63.113:19 \u2192 176.126.243.198:36635 | eth:ethertype:ip:udp:chargen | 1066 bytes | Chargen",
+    "raw_data": {
+      "profile": "packet_summary",
+      "src_ip": "185.47.63.113",
+      "dst_ip": "176.126.243.198",
+      "frame_number": "2",
+      "time_rel": "0.000456000",
+      "ip_src": "185.47.63.113",
+      "ip_dst": "176.126.243.198",
+      "ipv6_src": "",
+      "ipv6_dst": "",
+      "tcp_srcport": "",
+      "tcp_dstport": "",
+      "udp_srcport": "19",
+      "udp_dstport": "36635",
+      "protocols": "eth:ethertype:ip:udp:chargen",
+      "frame_len": "1066",
+      "info": "Chargen"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  },
+  {
+    "id": "482a7ff7-08ca-4ad2-9a78-ada75141750d",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:13.239324+00:00",
+    "title": "Network [endpoints]",
+    "description": "Endpoint 176.126.243.198: TX 2 pkts / 1,126 bytes, RX bytes pkts / 1 bytes",
+    "raw_data": {
+      "profile": "endpoints",
+      "ip": "176.126.243.198",
+      "packets": "2",
+      "bytes": "1,126"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  },
+  {
+    "id": "3a27886e-22fc-4b27-8e7a-bcee3971f7ad",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:13.239361+00:00",
+    "title": "Network [endpoints]",
+    "description": "Endpoint 185.47.63.113: TX 2 pkts / 1,126 bytes, RX bytes pkts / 1 bytes",
+    "raw_data": {
+      "profile": "endpoints",
+      "ip": "185.47.63.113",
+      "packets": "2",
+      "bytes": "1,126"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  },
+  {
+    "id": "d308c5cb-10f4-4f35-bf95-4ea4e226b63e",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:13.387391+00:00",
+    "title": "Network [protocol_hierarchy]",
+    "description": "Protocol frame: 2 frames, 1126 bytes",
+    "raw_data": {
+      "profile": "protocol_hierarchy",
+      "protocol": "frame",
+      "frames": "2",
+      "bytes": "1126"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  },
+  {
+    "id": "90fc1040-08bd-4f63-85b3-7fc928c9bbdf",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:13.387432+00:00",
+    "title": "Network [protocol_hierarchy]",
+    "description": "Protocol eth: 2 frames, 1126 bytes",
+    "raw_data": {
+      "profile": "protocol_hierarchy",
+      "protocol": "eth",
+      "frames": "2",
+      "bytes": "1126"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  },
+  {
+    "id": "e63c29df-4e78-4ffe-9166-bdae079db4fa",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:13.387446+00:00",
+    "title": "Network [protocol_hierarchy]",
+    "description": "Protocol ip: 2 frames, 1126 bytes",
+    "raw_data": {
+      "profile": "protocol_hierarchy",
+      "protocol": "ip",
+      "frames": "2",
+      "bytes": "1126"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  },
+  {
+    "id": "7ec6fde6-10c5-430b-80df-373f2c7087d8",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:13.387456+00:00",
+    "title": "Network [protocol_hierarchy]",
+    "description": "Protocol udp: 2 frames, 1126 bytes",
+    "raw_data": {
+      "profile": "protocol_hierarchy",
+      "protocol": "udp",
+      "frames": "2",
+      "bytes": "1126"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  },
+  {
+    "id": "94c6702f-0880-4c08-8da0-d22e8b34b073",
+    "category": "network",
+    "engine": "tshark",
+    "timestamp": "2026-04-13T09:00:13.387464+00:00",
+    "title": "Network [protocol_hierarchy]",
+    "description": "Protocol chargen: 2 frames, 1126 bytes",
+    "raw_data": {
+      "profile": "protocol_hierarchy",
+      "protocol": "chargen",
+      "frames": "2",
+      "bytes": "1126"
+    },
+    "ioc_matches": [],
+    "persistence_indicators": [],
+    "exfil_indicators": [],
+    "severity_score": 0.0
+  }
+]

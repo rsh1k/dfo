@@ -1,0 +1,2 @@
+[console_scripts]
+dfo = dfo.cli:main
